@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Terraform ###
+learn-terraform-gcp/terraform.tfstate
+learn-terraform-gcp/terraform-320016-c4fa772a8923.json
+learn-terraform-gcp/.terraform
+
