@@ -39,15 +39,15 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>3.1.1</version>
+				<version>3.1.2</version>
 				<configuration>
 					<configLocation>${checkstyle.path}/checkstyle.xml</configLocation>
+					<suppressionsLocation>./checkstyle-suppressions.xml</suppressionsLocation>
 					<includeTestResources>false</includeTestResources>
 					<encoding>UTF-8</encoding>
 					<consoleOutput>true</consoleOutput>
 					<failsOnError>true</failsOnError>
 					<linkXRef>false</linkXRef>
-					<propertyExpansion>samedir=${checkstyle.path}</propertyExpansion>
 				</configuration>
 				<executions>
 					<execution>
